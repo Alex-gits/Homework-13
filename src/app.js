@@ -3,8 +3,8 @@
 // Переписать News App на модули с использованием webpack. NewsService должен быть отдельным модулем, функции отвечающие за работу с UI также должны быть в отдельном модуле, http функция должна быть в отдельном модуле.
 
 
-import { newsServiceModule } from './newsServiceModule';
-import { createSourceOptions, showLoader, hideLoader, renderNews } from './uiModule';
+import { newsServiceModule } from './newsService';
+import { createSourceOptions, showLoader, hideLoader, renderNews } from './ui';
 
 const newsService = newsServiceModule();
 const form = document.forms['newsControls'];

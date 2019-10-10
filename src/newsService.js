@@ -1,4 +1,4 @@
-import { customHttp } from './httpModule';
+import { customHttp } from './http';
 
 // Функция для получения массива новостей
 
